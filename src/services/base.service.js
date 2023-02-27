@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = process.env.REACT_APP_API_URL || "https://mindx-63-be.onrender.com/";
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001/api";
 export default class BaseService {
   constructor(props) {
     this.api = API_URL;
